@@ -55,6 +55,14 @@ html{
      font-weight: 800;
      text-transform: uppercase;
 }
+ .ls-l.header-text.container{
+     margin-left: -56px !important;
+     margin-top: 88px !important;
+ }
+.ls-l.img-responsive.hidden-xs.hidden-sm.parallax2.ls-preloaded{
+    margin-left: -49px !important;
+    margin-top: 15px !important;
+}
  h2 {
      font-size: 52px;
      font-family: 'Alegreya sans',serif;
