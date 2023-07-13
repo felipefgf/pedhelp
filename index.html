@@ -34,6 +34,16 @@
       <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
       <link rel="shortcut icon" href="icon.png">
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6PXD2RVKP"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-Q6PXD2RVKP');
+      </script>
    </head>
    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
    <!-- Page width 'Boxed' of 'Full' -->
@@ -729,11 +739,11 @@
 				<!-- Form Starts -->
                <form id="contact_form" method="post" action="https://api.felipefgf.com.br/enviaContatoPedhelp">
                   <div class="form-group">
-                     <input type="text" name="name" class="form-control input-field" placeholder="Nome" required="">
-                     <input type="email" name="email" class="form-control input-field" placeholder="E-mail" required="">
-                     <input type="text" name="subject" class="form-control input-field" placeholder="Assunto" required="">
+                     <input type="text" name="nome" class="form-control input-field" placeholder="Nome" required="">
+                     <input type="email" name="assunto" class="form-control input-field" placeholder="E-mail" required="">
+                     <input type="text" name="email" class="form-control input-field" placeholder="Assunto" required="">
                   </div>
-                  <textarea name="message" id="message" class="textarea-field form-control" rows="4" placeholder="Mensagem" required=""></textarea>
+                  <textarea name="texto" id="message" class="textarea-field form-control" rows="4" placeholder="Mensagem" required=""></textarea>
                   <button type="submit" id="submit_btn" value="Submit" class="btn center-block">Enviar Mensagem</button>
                </form>
 			   <!-- Contact results -->
